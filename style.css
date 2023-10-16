@@ -1,0 +1,15 @@
+.image-container {
+    display: flex;
+    flex-direction: column; /* Set the direction to column for vertical layout */
+    align-items: center; /* Center the images horizontally */
+    justify-content: center; /* Center the images vertically */
+    /*height: 100vh; /* Use 100% of the viewport height */
+}
+
+.image {
+    max-width: 100%; /* Ensure images don't exceed their container width */
+    max-height: 100%; /* Ensure images don't exceed their container height */
+    width: auto; /* Maintain the aspect ratio */
+    height: auto; /* Maintain the aspect ratio */
+    margin-bottom: 10px; /* Add some space between images */
+}
